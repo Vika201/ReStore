@@ -1,0 +1,9 @@
+.error-indicator {
+    color: red;
+    text-align: center
+}
+
+.error {
+    font-size: 20px;
+    justify-content: center;
+}
