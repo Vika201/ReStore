@@ -6,5 +6,5 @@ const booksLoaded = (newBooks) => {
 };
 
 export {
-  booksLoaded
+    booksLoaded
 };

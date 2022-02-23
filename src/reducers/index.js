@@ -7,7 +7,9 @@ const reducer = (state = initialState, action) => {
         case "BOOKS_LOADED":
             return {
                 books: action.payload
-            }
+            };
+        default:
+            return state;
     }
 };
 
