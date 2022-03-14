@@ -1,9 +1,14 @@
 import React from 'react';
-import BooksList from '../books-list';
+
+import BookList from '../book-list';
+import ShoppingCartTable from '../shopping-cart-table';
 
 const HomePage = () => {
   return (
-      <BooksList />
+      <div>
+          <BookList />
+          <ShoppingCartTable />
+      </div>
   )
 };
 
