@@ -6,13 +6,7 @@
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/bookstore-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/bookstore-service.js" afterDir="false" />
     </list>
-    <list default="true" id="f17084d9-2bc2-415d-839c-6821c45ca476" name="Default" comment="add styles">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/book-list/book-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/book-list/book-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shopping-cart-table/shopping-cart-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shopping-cart-table/shopping-cart-table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/bookstore-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/bookstore-service.js" afterDir="false" />
-    </list>
+    <list default="true" id="f17084d9-2bc2-415d-839c-6821c45ca476" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -46,8 +40,8 @@
       <file leaf-file-name="book-list.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/book-list/book-list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+            <state relative-caret-position="282">
+              <caret line="45" column="2" lean-forward="true" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -127,15 +121,6 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/services/bookstore-service.js">
-      <ranges>
-        <range start1="1" end1="1" start2="1" end2="17" changelist="f17084d9-2bc2-415d-839c-6821c45ca476" />
-        <range start1="3" end1="5" start2="19" end2="24" changelist="4afb8b60-de03-477f-ba33-48d5c19ed5f8" />
-        <range start1="6" end1="7" start2="25" end2="27" changelist="4afb8b60-de03-477f-ba33-48d5c19ed5f8" />
-      </ranges>
-    </file>
-  </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
@@ -145,8 +130,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="16" />
-    <option name="y" value="25" />
+    <option name="y" value="26" />
     <option name="width" value="798" />
     <option name="height" value="715" />
   </component>
@@ -247,7 +231,7 @@
       <workItem from="1643399196727" duration="370000" />
       <workItem from="1643471568948" duration="397000" />
       <workItem from="1643479933722" duration="16407000" />
-      <workItem from="1644386633188" duration="32418000" />
+      <workItem from="1644386633188" duration="33336000" />
     </task>
     <task id="LOCAL-00001" summary="create reducer(), store() functions&#10;create booksLoaded() function in actions">
       <created>1643569481800</created>
@@ -291,11 +275,18 @@
       <option name="project" value="LOCAL" />
       <updated>1647254634284</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="to add Promise in  BookstoreService // to add spinner in BookList">
+      <created>1648664693140</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648664693140</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60247000" />
+    <option name="totallyTimeSpent" value="61165000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -307,18 +298,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="16" y="25" width="798" height="715" extended-state="0" />
+    <frame x="0" y="31" width="798" height="715" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7507987" visible="true" weight="0.31145433" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7507987" visible="true" weight="0.31145433" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952693" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50096714" side_tool="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32952693" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" sideWeight="0.24920128" side_tool="true" weight="0.30350664" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49903288" weight="0.32832617" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49903288" visible="true" weight="0.3267974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -400,7 +391,8 @@
     <MESSAGE value="create BooksList and BookListItem components//&#10;render BooksList on HomePage" />
     <MESSAGE value="connect state and actions, bookstoreService for BooksList//&#10;create compose functions" />
     <MESSAGE value="add styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="add styles" />
+    <MESSAGE value="to add Promise in  BookstoreService // to add spinner in BookList" />
+    <option name="LAST_COMMIT_MESSAGE" value="to add Promise in  BookstoreService // to add spinner in BookList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -747,13 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/bookstore-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -761,10 +746,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/bookstore-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/book-list/book-list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="282">
+          <caret line="45" column="2" lean-forward="true" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
