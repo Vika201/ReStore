@@ -1,6 +1,11 @@
 import React from 'react';
 
+import del from '../../icons/delete.png';
+import minus from '../../icons/minus.png';
+import plus from '../../icons/plus.png';
+
 import './shopping-cart-table.css';
+
 
 const ShoppingCartTable = () => {
     return (
@@ -24,14 +29,14 @@ const ShoppingCartTable = () => {
                         <td>2</td>
                         <td>$40</td>
                         <td>
-                            <button className='btn btn-outline-danger btn-outline-secondary'>
-                                <i className='fa fa-trash' />
+                            <button className='btn'>
+                                <img src={plus}/>
                             </button>
-                            <button className='btn btn-outline-success btn-outline-secondary'>
-                                <i className='fa fa-plus-circle' />
+                            <button className='btn'>
+                                <img src={minus}/>
                             </button>
-                            <button className='btn btn-outline-warning btn-outline-secondary'>
-                                <i className='fa fa-minus-circle' />
+                            <button className='btn'>
+                                <img src={del}/>
                             </button>
                         </td>
                     </tr>
