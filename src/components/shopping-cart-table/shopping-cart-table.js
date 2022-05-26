@@ -30,13 +30,13 @@ const ShoppingCartTable = () => {
                         <td>$40</td>
                         <td>
                             <button className='btn'>
-                                <img src={plus}/>
+                                <img src={plus} alt=''/>
                             </button>
                             <button className='btn'>
-                                <img src={minus}/>
+                                <img src={minus} alt=''/>
                             </button>
                             <button className='btn'>
-                                <img src={del}/>
+                                <img src={del} alt=''/>
                             </button>
                         </td>
                     </tr>
