@@ -1,9 +1,5 @@
-import booksLoaded from './actions';
-import booksRequested from './actions';
-import booksError from './actions';
+import fetchBooks from './actions';
 
 export {
-    booksLoaded,
-    booksRequested,
-    booksError
+    fetchBooks
 };
