@@ -6,6 +6,11 @@ import del from '../../icons/delete.png';
 import minus from '../../icons/minus.png';
 import plus from '../../icons/plus.png';
 
+import {
+    bookAddedToCart,
+    bookRemovedFromCart,
+    allBooksRemovedFromCart } from "../../actions/actions";
+
 import './shopping-cart-table.css';
 
 
@@ -69,18 +74,10 @@ const mapStateToProps = ({ cartItems, orderTotal}) => {
     }
 };
 
-const mapDispatchToProps = () => {
-    return {
-        onDecrease: (id) => {
-            console.log(`Decrease ${id}`)
-        },
-        onIncrease: (id) => {
-            console.log(`Increase ${id}`)
-        },
-        onDelete: (id) => {
-            console.log(`Delete ${id}`)
-        }
-    }
+const mapDispatchToProps = {
+        onDecrease: bookAddedToCart,
+        onIncrease: bookRemovedFromCart,
+        onDelete: allBooksRemovedFromCart
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(ShoppingCartTable);
