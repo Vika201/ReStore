@@ -9,7 +9,8 @@ import plus from '../../icons/plus.png';
 import {
     bookAddedToCart,
     bookRemovedFromCart,
-    allBooksRemovedFromCart } from "../../actions/actions";
+    allBooksRemovedFromCart
+} from "../../actions/actions";
 
 import './shopping-cart-table.css';
 
@@ -67,10 +68,10 @@ const ShoppingCartTable = ({ items, total, onIncrease, onDecrease, onDelete }) =
     )
 };
 
-const mapStateToProps = ({shoppingCart: { cartItems, orderTotal}}) => {
+const mapStateToProps = ({shoppingCart: { cartItems }}) => {
     return {
         items: cartItems,
-        total: orderTotal
+        total: cartItems.reduce((total, item) => total + item.total, 0)
     }
 };
 
