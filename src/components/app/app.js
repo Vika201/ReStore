@@ -9,8 +9,13 @@ import CartPage from "../pages/cart-page";
 
 const App = () => {
     return (
-    <div>
-    </div>
+        <main role='main' className='container'>
+            <ShopHeader/>
+            <Routes>
+                <Route path='/' element={<HomePage />} />
+                <Route path='/cart' element={<CartPage />} />
+            </Routes>
+        </main>
 )
 };
 
